@@ -1,0 +1,17 @@
+@charset "utf-8";
+body{
+  background: rgb(195, 195, 243);
+}
+.btn{
+  margin-left: 6rem;
+}
+
+
+/* メディアクリ */
+@media(max-width: 600px){
+  textarea{
+    width: 90%;
+    height: 150px;
+    margin: 0 auto;
+  }
+}

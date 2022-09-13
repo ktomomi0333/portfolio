@@ -1,0 +1,210 @@
+@charset "utf-8";
+
+body{
+  background-color: azure;
+  text-align: center;
+  padding-bottom: 5rem;
+  width: 100%;
+}
+
+h1{
+  color: rgb(223, 8, 62);
+  margin: 5rem auto 3rem auto;
+}
+a{
+  display: block;
+  text-decoration: none;
+  width: 6rem;
+  margin: auto;
+}
+p{
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+a:hover{
+  background-color: rgb(174, 146, 250);
+}
+h2{
+  margin: 2rem auto;
+}
+input{
+  border: 0.1px solid grey;
+  background-color: white;
+  border-radius: 5px;
+
+}
+.login, .btn{
+  margin: 2rem auto;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  width: 8rem;
+  background-color: red;
+}
+
+.login:hover{
+  background-color: rgb(252, 79, 79);
+}
+.rsv_num{
+  margin-bottom: 0;
+  color: blue;
+  font-size: 0.8rem;
+}
+.count{
+  margin-bottom: 1rem;
+}
+dt dd{
+  text-align: left;
+  margin: 0 auto;
+  width: 25%;
+}
+.thanks{
+  width: 23rem;
+}
+.cnt, .error{
+  color: red;
+}
+.error{
+  font-size: 0.9rem;
+} 
+.ampm{
+  width: 20rem;
+  height: 3.5rem;
+  margin: 1.2rem auto;
+}
+.ampm, .delete_btn, .mini{
+  font-size: 1.1rem;
+}
+.delete_btn{
+  width: 10rem;
+}
+.strong{
+  color: rgb(235, 5, 5);
+  font-weight: bolder;
+}
+.jamp{
+  display: flex;
+  justify-self: flex-end;
+  width: 10rem;
+  margin: 0 30% 0 60%;
+}
+.text{
+  width: 40%;
+}
+.text,.login_wrapper,.check_wrapper{
+  text-align: left;
+}
+.thanks,.text,.login_wrapper,.rewrite_wrapper{
+  margin: 0 auto;
+}
+.dlt{
+  width: 11rem;
+}
+.login_wrapper{
+  width: 35%;
+}
+.rewrite{
+  background-color: rgba(72, 34, 212, 0.904);
+  color: white;
+  width: 6rem;
+  border-radius: 10px;
+}
+.rewrite_wrapper{
+  display: flex;
+  justify-content: center;
+  width: 17%;
+}
+.check_wrapper{
+  width: 13%;
+  margin: 2rem auto;
+}
+dt{
+  color: blue;
+  font-weight: bolder;
+}
+.link{
+  display: inline;
+}
+.to_btn{
+  width: 12rem;
+}
+.home_btn{
+  display: block;
+  margin-right: 30%;
+}
+/* ----------------レスポンシブーーーーーーーーーーーー */
+@media(max-width: 600px){
+  body{
+    width: 100%;
+    text-align: center;
+    margin: 0rem auto;
+  }
+ .login_wrapper,.login_text,.text{
+  width: 90%; 
+ }
+ form{
+   width: 90%;
+  }
+  .login_wrapper p{
+    text-align: left;
+    margin-left: 1rem;
+  }
+  form{
+    margin: 0 auto;
+  }
+  .home_btn{
+    margin: 1rem 2rem 0 auto;
+  }
+  .check_text{
+    margin-left: 1rem;
+  }
+  .check_wrapper{
+    width: 60%;
+    margin-left: 5rem;
+  }
+  .rewrite_wrapper{
+    margin-left: 32%;
+  }
+  .rewrite_wrapper,.login_text,.text,.not_rsv,.now{
+    margin: 0 auto;
+  }
+  .rewrite_wrapper,.jamp{
+    display: block;
+  }
+  .rewrite_wrapper a{
+    margin-bottom: 0.5rem;
+  }
+  .login_text,.text{
+    text-align: left;
+  }
+  .jamp{
+    width: 10rem;
+    margin: 0 30% 0 60%;
+  }
+  .duplication{
+    margin-top: 2rem;
+    font-weight: bold;
+  }
+  .link a{
+    display: inline;
+  }
+  .not_rsv,.now,.link{
+    width: 95%;
+    font-size: 0.9rem;
+  }
+  .home{
+    width: 40%;
+  }
+  h1{
+    font-size: 1.2rem;
+  }
+  .error-pass{
+    font-size: 0.7rem;
+  }
+  .duplication,.error-pass{
+    color: red;
+  }
+  .login_wrapper,.error-pass{
+   text-align: center;
+  }
+}

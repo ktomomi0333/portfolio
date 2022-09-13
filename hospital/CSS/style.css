@@ -1,0 +1,352 @@
+@charset "utf-8";
+body{ 
+  width: 100%;
+  font-size: 20px;
+  font-family: 'Noto Serif Japanese','Sawarabi Mincho';
+  color: #333333;
+  line-height: 1.5;
+  margin: 0 auto;
+}
+a {
+  display: block;
+  text-decoration: none;
+  color: #333333;
+}
+ul{
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 10px;
+}
+li{
+  margin: 3rem 0 1rem 0;
+  padding: 0.2rem 1rem;
+}
+li a:hover{
+  color: rgb(228, 199, 241);
+}
+/* ------------ヘッダー------------------ */
+header{
+  display: flex;
+  justify-content: space-between;
+  height: 200px;
+}
+h1{
+  font-size: 3.5rem;
+  color: rgb(104, 104, 187);
+  margin: 3rem 0 1rem 2rem;
+}
+ul{
+  font-size: 1.6rem;
+  margin-top: 4.5rem;
+  border-style: 0.1px solid gray;
+}
+.reserve-btn{
+  color: red;
+}
+.reserve-btn:hover{
+  color:rgb(248, 152, 200)
+}
+/* ----------------メイン------------------- */
+h2{
+  text-align: center;
+  margin-top: 5rem;
+}
+.main-photo{
+  width: 100%;
+}
+
+main h3{
+  margin-top: 70px;
+}
+main img{
+  margin: 0 auto;
+}
+/* .Internal{
+  background-image: url(images/logo/01.png);
+}
+.Cardiology{
+  background-image: url(images/logo/sinnzou.png);
+}
+.Gastro{
+  background-image: url(images/logo/iii.png);
+}
+.rihabiri{
+  background-image: url(images/logo/03.png);
+} */
+.calender{
+  background-color: antiquewhite;
+  height: 700px;
+  padding-top: 50px;
+}
+.calender-wrapper{
+  margin: 0 auto;
+  width: 70%;
+}
+table{
+  width: 100%;
+  margin: 70px auto;
+  line-height: 3rem;
+  border-collapse: collapse;
+  border-radius: 10px;
+  background-color: white;
+}
+.last-row{
+  border-bottom: none;
+}
+tr{
+  border-bottom: dashed 1px rgb(79, 91, 102);
+}
+table th, table td{
+  text-align: center;
+}
+tr{
+  height: 70px;
+}
+/*ニュース ーーーーーーーーーーーーーーーー*/
+.article-wrapper{
+  display: flex;
+  justify-content: space-around;
+  padding: 10% 10%;
+}
+.artilcle-title{
+ width: 20%;
+ height: 200px;
+ margin-top: 50px;
+ border: solid 1px black;
+ text-align: center;
+ padding-top: 60px;
+ color: rgb(5, 5, 129);
+ background-color: antiquewhite;
+}
+article{
+  width: 60%;
+  height: 300px;
+  border: solid 1px black;
+  overflow-y: scroll;
+  border-radius: 10px;
+}
+/* -----------フッター------------------ */
+footer{
+  background-color: antiquewhite;
+  padding: 10% 5%;
+}
+iframe{
+  width: 320px;
+  height: 320px;
+}
+#acsess{
+  display: flex;
+  justify-content: space-around;
+}
+.call img{
+  width: 25px;
+}
+h4 {
+  margin-bottom: 2rem;
+  border-bottom: solid black 1px;
+}
+.call img{
+  position: relative;top: 2.3rem; left: -2rem;
+}
+/* dr.html */
+.dr-h2,.consul-title{
+  background: linear-gradient(to right, rgb(249, 196, 249), rgb(241, 140, 179));
+  height: 7rem;
+  padding-top: 2.3rem;
+  color: white;
+}
+.dr-img{
+  width: 290px;
+  height: 300px;
+  margin-top: 4%;
+}
+.dr-wrapper{
+  display: flex;
+  justify-content: center;
+  width: 85%;
+  margin: 50px auto;
+}
+.dr-text{
+  font-size: 1.1rem;
+  width: 750px;
+}
+.dr-text-title{
+  margin-top: 15px;
+  font-weight: bold;
+}
+.dr-text a{
+  display: inline;
+  color: blue;
+}
+/* consul.html */
+.consul-wrapper h3{
+  background-color: rgb(95, 185, 246);
+  color: white;
+  height: 4rem;
+  padding-top: 1rem;
+  padding-left: 2rem;
+  margin-top: 2rem;
+  font-size: 1.7rem;
+}
+.consul-wrapper h4{
+  border: none;
+  color: red;
+  font-size: 1.7rem;
+  margin-top: 2rem;
+}
+.consul-text{
+  font-size: 1.7rem;
+  width: 85%;
+  margin: 3rem auto;
+}
+.consul-text p{
+  margin-bottom: 2rem;
+}
+/* レスポンシブ */
+@media(max-width: 600px){
+  /* ヘッダー */
+  h1{
+    width: 90%;
+    font-size: 1.7rem;
+    margin: 2rem auto 1rem 1rem;
+    text-align: center;
+    text-align: left;
+  }
+  h2{
+    font-size: 1.2rem;
+    margin-top: 2rem;
+  }
+  header{
+    display: block;
+    height: 110px;
+  }
+  ul{
+    width: 95%;
+    border: 0.1px solid rgb(153, 151, 151);
+    border-radius: 10px;
+    margin:0 auto;
+    background: linear-gradient(to right, rgb(247, 213, 247), rgb(246, 179, 205));
+  }
+  li{
+    font-size: 0.7rem;
+    margin: 0;
+    border-right: 0.1px solid gray;
+    width: 6rem;
+    text-align: center;
+    padding: 0.2rem 0;
+  }
+  li:last-child{
+    border: none;
+  }
+  /* メイン写真 */
+  .main-photo{
+    margin-top: 0;
+  }
+  /* カレンダー */
+  .calender{
+    height: 520px;
+    padding-top: 5px;
+  }
+  .calender-wrapper{
+    width: 95%;
+  }
+  tr{
+    height: 3rem;
+  }
+  .week{
+    font-size: 0.7rem;
+    height: 2rem;
+  }
+  .day{
+    font-size: 0.8rem;
+  }
+  .table-row{
+    width: 20%;
+  }
+  table{
+    height: 150px;
+    margin-top: 1rem;
+  }
+  .calender p{    
+    font-size: 0.8rem;
+    width: 90%;
+    margin: 0 auto;
+  }
+  /* お知らせ */
+  .article-wrapper{
+    display: block;
+  }
+  .artilcle-title{
+    font-size: 0.8rem;
+    width: 70%;
+    margin: 2rem auto;
+    height: 4rem;
+    padding-top: 1rem;
+  }
+  article{
+    width: 100%;
+    height: 10rem;
+    font-size: 0.8rem;
+  }
+  /* アクセス */
+  iframe{
+    width: 250px;
+    height: 250px;
+    margin: 0 auto 20px 40px;
+  }
+  #acsess{
+    display: block;
+    font-size: 1rem;
+  }
+  .jr{
+    margin-left: 1rem;
+  }
+  .wrapper-adress{
+    width: 80%;
+    margin: 0 auto;
+  }
+  .call-wrapper{
+    width: 80%;
+    margin: 0 auto;
+  }
+  .call img{
+    position: relative;top: 6.1rem; left: 0;
+  }
+  /* dr.html */
+  .dr-h2{
+    margin-top: 0;
+    padding-bottom: 2rem;
+  }
+  .dr-wrapper{
+    display: block;
+    margin-top: 20px;
+  }
+  .dr-img{
+    width: 180px;
+    height: 200px;
+    margin: 0 70px;
+    margin-bottom: 20px;
+  }
+  .dr-text{
+    font-size: 0.9rem;
+    width: 100%;
+  }
+  /* consul.html */
+  .consul-wrapper h3{
+    font-size: 1rem;
+    padding-top: 1.5rem;
+  }
+  .consul-wrapper h4{
+    font-size: 1.2rem;
+    margin-bottom: 0;
+  }
+  .consul-text{
+    font-size: 1rem;
+    width: 92%;
+    margin-top: 0;
+  }
+  .consul-text p{
+    padding-top: 0;
+  }
+}

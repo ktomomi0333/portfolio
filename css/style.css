@@ -1,0 +1,423 @@
+@charset "UFT-8";
+/* ヘッダー */
+header{
+  background-color: #87CEEB;
+  height: 400px;
+}
+.pc-menu{
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+}
+.sp-menu{
+  display: none;
+}
+#close{
+  display: none;
+}
+li{
+  padding: 12px;
+}
+a{
+  text-decoration: none;
+  color:black;
+}
+a:hover{
+  color: white;
+}
+h1{
+  font-size: 4rem;
+  text-align: center;
+  letter-spacing: 0.5rem;
+  padding-top: 100px;
+}
+.overlay{
+  display: none;
+}
+/* ヘッダー */
+
+/* プロフィール */
+h2{
+  text-align:center;
+  padding-top: 100px;
+  padding-bottom: 60px;
+  font-size: 1.6rem;
+}
+.pro{
+  display:flex;
+  justify-content:center;
+}
+.photo{
+  width: 200px;
+  height: 250px;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+.pro-text{
+  padding-top: 60px;
+  margin-left: 20px;
+}
+.me{
+  padding-top: 15px;
+  font-size: 1.3rem;
+}
+/* 強み */
+.strongs{
+  /* text-align: center; */
+  background-color: #E0FFFF;
+  margin-top:100px;
+  padding-bottom:100px;
+}
+.strong{
+  margin: 2% 30%;
+}
+
+h3{
+  text-align: center;
+}
+.strong 
+/* 強み */
+
+/* 将来像 */
+.target{
+  text-align: center;
+  padding-bottom:100px;
+}
+.target-text{
+  width: 50%;
+  margin: auto;
+  margin-bottom: 100px;
+}
+/* 将来像 */
+.item{
+  height: 150x;
+  width: 78%;
+  background-color: #fff;
+  border: #93d7f1 solid 3px;
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 0 10px 25px 0 rgba(0, 0, 0, .5);
+}
+.keireki-flex{
+  width: 500px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+.keireki-wrapper{
+  background-color: #E0FFFF;
+  padding-bottom:100px;
+}
+.date{
+  margin-top: 40px;
+  color: rgba(0, 0, 139, 0.788);
+  width: 100%;
+}
+/* 矢印 */
+.bar{
+  width: 25px;
+  height:1000px;
+  background-color: rgb(83, 81, 81);
+  margin-left:17px;
+}
+.triangle {
+    width: 0;
+    height: 0;
+    border-right: 30px solid transparent;
+    border-left: 30px solid transparent;
+    border-top: 50px solid rgb(83, 81, 81);
+}
+/* 矢印 */
+/* 経歴フレックス */
+
+/* スキル */
+.icon img{
+  width: 100px;
+}
+.j-icon img{
+  width: 90px;
+}
+.grid{
+  width: 70%;
+  display:grid;
+  gap:26px;
+grid-template-columns: repeat(auto-fit,minmax(240px,1fr));
+margin-top: 6%;
+margin-bottom:50px;
+margin: 0 auto;
+padding-bottom:100px;
+}
+
+.icon{
+  text-align: center;
+}
+
+.OS,.language{
+  font-size: 1.5rem;
+  width: 10%;
+  margin-left: 30%;
+  margin-bottom: 2%;
+}
+
+/* スキル */
+
+/* 作品 */
+.work-wrapper{
+  background-color: #E0FFFF;
+  padding-bottom: 100px;
+}
+.work-wrapper img{
+  width: 300px;
+  height: 200px;
+}
+.works{
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  padding-left: 7.5%;
+  margin: 0 auto;
+}
+.exple-a,.exple-d,.exple-g{
+  cursor: pointer;
+  color: rgb(251, 251, 253);
+  font-weight: bold;
+  background-color: #3bc2f7;
+  border-radius: 7px;
+  width: 7rem;
+}
+.exple-a,.exple-d,.exple-g:hover{
+  background-color: lightblue;
+}
+.exple-b,.exple-e,.exple-h{
+  display:none;
+}
+.exple-c{
+  display: block;
+}
+.hospital-wrapper h3,.post-wrapper h3{
+  margin: 0 auto;
+}
+.hospital-wrapper,.post-wrapper,.portfolio-wrapper{
+  width: 35%;
+  margin: o auto;
+}
+.works h3{
+  font-size: 1rem;
+  color: rgb(92, 5, 155);
+  width: 70%;
+  text-align: center;
+}
+/* お問い合わせ */
+form{
+  width: 25%;
+  margin: auto;
+}
+input{
+  width: 100%;
+  border-style: ridge;
+  border-radius: 6px;
+  border-color: rgb(192, 189, 189);
+  background-color:#fffff0;
+  display: blocks;
+
+}
+textarea{
+  border-style: ridge;
+  height:120px;
+  width:100%;
+  border-radius: 6px;
+  background-color: #fffff0;
+  margin:0 auto;
+  display: blocks;
+}
+input[type="submit"]{
+  width:30%;
+  background-color: rgb(159, 244, 250);
+  margin: 10% 35% 0 35%;
+}
+label{
+  display: block;
+  margin-top: 2%;
+}
+button[type="submit"]{
+  display: block;
+  margin: 3rem auto;
+  width: 6rem;
+  background-color: rgb(108, 247, 235);
+  border-radius: 5px;
+}
+button[type="submit"]:hover{
+  background-color: rgb(3, 194, 178);
+}
+
+/* お問い合わせ */
+
+
+
+
+/* モバイル版 */
+@media(max-width: 600px){
+h1{
+  font-size: 2rem;
+}
+h2{
+  font-size:1.2rem;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+h3{
+  font-size: 1rem;
+}
+.sp-menu{
+  text-align: right;
+  display: block;
+  margin-right: 2%;
+}
+.sp-menu #open {
+  font-size: 32px;
+  line-height: 64px;
+  cursor: pointer;
+}
+.sp-menu #open.hide{
+  display: none;
+}
+.overlay{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 50%;
+  background: rgba(255, 255, 255, 0.95);
+  text-align: center;
+  padding: 64px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity .6s;
+}
+  /* オーバーレイが表示されないときはカーソルが反応しないようにする */
+
+.overlay.show {
+  opacity: 1;
+  pointer-events: auto;
+}
+.overlay li{
+  width: 10rem;
+  text-align: left;
+  margin: 0 auto;
+}
+.overlay{
+  display: block;
+}
+.overlay #close{
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  font-size: 32px;
+  cursor: pointer;
+}
+.overlay ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.overlay li{
+  margin-top: 24px;
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity .3s, transform .3s;
+}
+.overlay.show li {
+  opacity: 1;
+  transform: none;
+}
+.overlay.show li:nth-child(1){
+  transition-delay: 0.1s;
+}
+.overlay.show li:nth-child(2){
+  transition-delay: 0.3s;
+}
+.overlay.show li:nth-child(3){
+  transition-delay: 0.5s;
+}
+.overlay.show li:nth-child(4){
+  transition-delay: 0.7s;
+}
+.pc-menu{
+  display: none;
+}
+.sp-menu #open {
+  font-size: 32px;
+  line-height: 64px;
+  cursor: pointer;
+}
+.sp-menu #open.hide{
+  display: none;
+}
+.media-title{
+  font-size:1rem
+}
+#close{
+  display: block;
+}
+a{
+  font-size:0.7rem;
+}
+
+header{
+  height: 330px;
+}
+/* プロフィール */
+.pro{
+  display:flex;
+  flex-direction: column;
+}
+.photo{
+  width: 120px;
+  height: 150px;
+  margin: auto;
+}
+.me{
+  font-size: 1rem;
+  padding-bottom: 10px;
+}
+
+/* 強み */
+.strong{
+  padding-bottom:30px;
+  width: 250px;
+  margin:  30px auto;
+}
+
+/* 将来像 */
+.target-text{
+  width: 250px;
+}
+
+/* 経歴 */
+.item{
+  width:66%;
+}
+.keireki-flex{
+  width: 370px;
+}
+.item{
+  width: 90%;
+}
+/* コンタクトフォーム */
+label{
+  font-size: 0.9rem;
+}
+form{
+  width: 250px;
+}
+/* 作品 */
+.works{
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+.post-wrapper{
+  margin-top: 2rem;
+}
+}
+/* media */
